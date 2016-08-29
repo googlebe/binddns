@@ -3,4 +3,6 @@ Installing a BIND DNS service on CentOS 7
 ```
 # yum install -y bind bind-utils
 # systemctl enable named
+# systemctl start named
+# systemctl status named
 ```
