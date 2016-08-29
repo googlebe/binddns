@@ -11,3 +11,11 @@ Package: bind
 Service: named  
 Config: caching  
 Port: 53  
+```
+# netstat -ltn
+# dig www.google.com @127.0.0.1
+```
+Ensure there is a listening port 53 for ipv4 and ipv6  
+```
+# vim /etc/named.conf
+```
