@@ -1,5 +1,5 @@
 # binddns Usage Instructions
-Installing a BIND DNS service on CentOS 7 - Caching only
+## Installing a BIND DNS service on CentOS 7 - Caching only Host
 ```
 # yum install vim
 # yum install -y bind bind-utils
@@ -59,4 +59,5 @@ Add the google forwarders below the details in configuration, around line 41
 forwarders  { 8.8.8.8;  8.8.4.4;  }
 forward only;
 ```
-
+## Installing a BIND DNS client on CentOS 7  
+```
