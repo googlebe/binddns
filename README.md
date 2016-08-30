@@ -1,5 +1,5 @@
 # binddns Usage Instructions
-Installing a BIND DNS service on CentOS 7
+Installing a BIND DNS service on CentOS 7 - Caching only
 ```
 # yum install vim
 # yum install -y bind bind-utils
